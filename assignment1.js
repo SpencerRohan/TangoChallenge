@@ -1,17 +1,33 @@
-function a1(){
 
-	console.log('Assignment 1 Alpha');
+// Challenge Notes 
+/**
+* Given an array of numbers, assume that they are all different. Calculate the largest difference(subtraction) between any two numbers of the array.
+* 1. Code in Javascript 2 solutions for this problem
+* 2. Explain which one is better than the other one.
+**/
 
-};
+// Solution 1
 
-function a2(){
+/** Pseudo Code
+* 
+* 1. Find Max and Min values in separate functions
+* 2. subtract absolute values to find difference
+**/
 
-	console.log('Assignment 1 Beta');
+function getMaxOfArray(numArray) {
 
-};
+}
 
-var assignment1A = a1,
-		assignment1B = a2;
+function getMinOfArray(numArray) {
 
-module.exports.a1a = assignment1A;
-module.exports.a1b = assignment1B;
+}
+
+function calculateDifference(numArray){
+
+}
+
+
+// // Export Solution
+// var assignment1A = a1,
+
+// module.exports.a1a = assignment1A;
