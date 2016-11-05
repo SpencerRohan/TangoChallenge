@@ -34,6 +34,3 @@ module.exports.getMaxOfArray = solution1.getMax;
 module.exports.getMinOfArray = solution1.getMin;
 module.exports.calculateDifference = solution1.getDiff;
 
-
-
-
