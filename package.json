@@ -1,0 +1,23 @@
+{
+  "name": "TangoChallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpencerRohan/TangoChallenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpencerRohan/TangoChallenge/issues"
+  },
+  "homepage": "https://github.com/SpencerRohan/TangoChallenge"
+}

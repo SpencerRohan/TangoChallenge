@@ -10,22 +10,25 @@ var testNums = {
 };
 
 //Test getMaxOfArray
-expect(assignment1.getMaxOfArray(testNums['default']) == 100000).to.be.true;
-expect(assignment1.getMaxOfArray(testNums['positive']) == 3).to.be.true;
-expect(assignment1.getMaxOfArray(testNums['negative']) == -1).to.be.true;
-expect(assignment1.getMaxOfArray(testNums['zero']) == 5).to.be.true;
-expect(assignment1.getMaxOfArray(testNums['duplicate']) == 6).to.be.true;
+expect(assignment1.getMaxOfArray(testNums['default'])).to.be.a('number');
+expect(assignment1.getMaxOfArray(testNums['default'])).to.equal(100000);
+expect(assignment1.getMaxOfArray(testNums['positive'])).to.equal(3);
+expect(assignment1.getMaxOfArray(testNums['negative'])).to.equal(-1);
+expect(assignment1.getMaxOfArray(testNums['zero'])).to.equal(5);
+expect(assignment1.getMaxOfArray(testNums['duplicate'])).to.equal(6);
 
 //Test getMinOfArray
-expect(assignment1.getMinOfArray(testNums['default']) == -1000).to.be.true;
-expect(assignment1.getMinOfArray(testNums['positive']) == 1).to.be.true;
-expect(assignment1.getMinOfArray(testNums['negative']) == -3).to.be.true;
-expect(assignment1.getMinOfArray(testNums['zero']) == -10).to.be.true;
-expect(assignment1.getMinOfArray(testNums['duplicate']) == -6).to.be.true;
+expect(assignment1.getMinOfArray(testNums['default'])).to.be.a('number');
+expect(assignment1.getMinOfArray(testNums['default'])).to.equal(-1000);
+expect(assignment1.getMinOfArray(testNums['positive'])).to.equal(1);
+expect(assignment1.getMinOfArray(testNums['negative'])).to.equal(-3);
+expect(assignment1.getMinOfArray(testNums['zero'])).to.equal(-10);
+expect(assignment1.getMinOfArray(testNums['duplicate'])).to.equal(-6);
 
 //Test calculateDifference
-expect(assignment1.calculateDifference(testNums['default']) == 101000).to.be.true;
-expect(assignment1.calculateDifference(testNums['positive']) == 2).to.be.true;
-expect(assignment1.calculateDifference(testNums['negative']) == 2).to.be.true;
-expect(assignment1.calculateDifference(testNums['zero']) == 15).to.be.true;
-expect(assignment1.calculateDifference(testNums['duplicate']) == 12).to.be.true;
+expect(assignment1.calculateDifference(testNums['default'])).to.be.a('number');
+expect(assignment1.calculateDifference(testNums['default'])).to.equal(101000);
+expect(assignment1.calculateDifference(testNums['positive'])).to.equal(2);
+expect(assignment1.calculateDifference(testNums['negative'])).to.equal(2);
+expect(assignment1.calculateDifference(testNums['zero'])).to.equal(15);
+expect(assignment1.calculateDifference(testNums['duplicate'])).to.equal(12);
