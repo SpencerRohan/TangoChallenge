@@ -42,8 +42,8 @@ assignment3.numberToStr = function(h) {
     return str.join('');
 }
 
-console.log(assignment3.numberToStr(667734139064)); //The answer is: correct!
-console.log(assignment3.numberToStr(680131662011)); //leepdag
+//console.log(assignment3.numberToStr(667734139064)); //The answer is: correct!
+//console.log(assignment3.numberToStr(680131662011)); //leepdag
 
 module.exports.strToNumber = assignment3.strToNumber;
 module.exports.numberToStr = assignment3.numberToStr;
