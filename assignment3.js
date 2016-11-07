@@ -38,10 +38,9 @@ assignment3.numberToStr = function(h) {
     while (h !== length) {
         var index = h % 37;
         h = (h - index) / 37;
-        console.log(h);
-        console.log(index);
-        console.log(letters[index]);
+        str.unshift(letters[index]);
     }
+    console.log(str);
 }
 
 console.log(assignment3.numberToStr(667734139064));
