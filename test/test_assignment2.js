@@ -52,9 +52,4 @@ describe('Assignment 2', function(){
 			expect(assignment2.checkIfIntersection(testRects.rect3, testRects.rect4)).to.be.false;
 		});
 	});
-
-
-
-
-
 });

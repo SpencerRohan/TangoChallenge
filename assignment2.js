@@ -1,4 +1,4 @@
-/**
+/** Challenge Assignment 2
  * Create a function that takes two rectangles as parameters
  * and returns true if the rectangles intersect, false otherwise.
  * Assume that the (0,0) of the axis is the top left.
