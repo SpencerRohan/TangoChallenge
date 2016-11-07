@@ -32,17 +32,18 @@ assignment2.getPoints = function(rectangle){
 
 };
 
-assignment2.checkIntersection = function(rect1, rect2){
+assignment2.checkIfIntersection = function(rect1, rect2){
 	var r1Points = assignment2.getPoints(rect1),
 			r2Points = assignment2.getPoints(rect2),
-			overlapX = Math.min(r1Points.x2,r2Points.x2) - Math.max(r1Points.x1, r2Points.x1),
-			overlapY = Math.min(r1Points.y2,r2Points.y2) - Math.max(r1Points.y1, r2Points.y1)
+			overlapX = (Math.min(r1Points.x2,r2Points.x2) - Math.max(r1Points.x1, r2Points.x1)),
+			overlapY = (Math.min(r1Points.y2,r2Points.y2) - Math.max(r1Points.y1, r2Points.y1));
+			
+	if (overlapX < 0 || overlapY < 0) { 
+		return false;
+	};
 
-			console.log(overlapX);
-			console.log(overlapY);
-
-			return true;
+	return true 
 };
 
 module.exports.getPoints = assignment2.getPoints;
-module.exports.checkIntersection = assignment2.checkIntersection;
+module.exports.checkIfIntersection = assignment2.checkIfIntersection;
