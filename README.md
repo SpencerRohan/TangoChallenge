@@ -17,15 +17,15 @@ Notes:
 ---
 
 Assignment 1: 
- * The second solution to assignment 1 is faster to compute(I tested against a benchmark library), however I from a OOD stand-point it is my opinion that it is a cleaner solution - with the ability to scale up.
+  * The second solution to assignment 1 is faster to compute(I tested against a benchmark library), however I from a OOD stand-point it is my opinion that it is a cleaner solution - with the ability to scale up.
 ---
 
 Assignment 2:
- * The solve for assignment 2 was fun.  I think there were a few ways I could have approached this solution - but I found it very effective to just grab the points needed by reordering the data given, and compare the values.
+  * The solve for assignment 2 was fun.  I think there were a few ways I could have approached this solution - but I found it very effective to just grab the points needed by reordering the data given, and compare the values.
 --- 
  
 Assignment 3: 
- * This assignment took me the longest, to think of how to approach the problem.  Once I took a moment to asses the situation after a brute force attempt - the solution came very quickly.
+  * This assignment took me the longest, to think of how to approach the problem.  Once I took a moment to asses the situation after a brute force attempt - the solution came very quickly.
 
 
 ---
