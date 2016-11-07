@@ -20,8 +20,23 @@
 
 var assignment2 = {};
 
-assignment2.checkInetersections = function(rect1, rect2){
-	console.log('Ready');
+assignment2.getPoints = function(rectangle){
+	var points = {
+		'x1' : rectangle['x'],
+		'x2' : rectangle['x'] + rectangle['width'],
+		'y1' : rectangle['y'],
+		'y2' : rectangle['y'] + rectangle['height']
+	};
+
+	return points;
+
 };
 
-module.exports.ready = assignment2.ready;
+assignment2.checkInetersections = function(rect1, rect2){
+	var rect1 = assignment2.getPoints(rect1),
+			rect2 = assignment2.getPoints(rect2);
+
+			
+};
+
+module.exports.getPoints = assignment2.getPoints;
