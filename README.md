@@ -15,9 +15,11 @@ Notes:
   * If you wish to embed all the code for each assignment files, utilizing ```app.js``` would be the way to go.
   * Each assignment is located in seperate files in the root directory. The scripts have been exported in a module, something that I also wanted to play with for this challenge.
 ---
+
 Assignment 1: 
  * The second solution to assignment 1 is faster to compute(I tested against a benchmark library), however I from a OOD stand-point it is my opinion that it is a cleaner solution - with the ability to scale up.
 ---
+
 Assignment 2:
  * The solve for assignment 2 was fun.  I think there were a few ways I could have approached this solution - but I found it very effective to just grab the points needed by reordering the data given, and compare the values.
 --- 
