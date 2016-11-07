@@ -7,6 +7,7 @@ var testNums = {
 	'negative' 		: [-1, -2, -3], //2
 	'zero' 				: [1, 0 , 5, -10], //15
 	'duplicate' 	: [ -6, -5, -6, 6, 6], //12
+};
 
 describe('Mocha', function() {
 	it('should run tests using npm test', function(){
