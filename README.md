@@ -13,7 +13,7 @@ Notes:
   * I took this challenge as an opportunity to learn mocha and chai testing suites.
   * You can find all the test scripts in the ```test/*.js``` files.
   * If you wish to embed all the code for each assignment files, utilizing ```app.js``` would be the way to go.
-  * Each assignment is located in seperate files in the root directory. The scripts have been exported in a module, something that I also wanted to play with for this challenge.
+  * Each assignment is located in separate files in the root directory. The scripts have been exported in a module, something that I also wanted to play with for this challenge.
 
 
 ---
@@ -31,10 +31,20 @@ Assignment 2:
 --- 
  
 Assignment 3: 
-  * This assignment took me the longest, to think of how to approach the problem.  Once I took a moment to asses the situation after a brute force attempt - the solution came very quickly.
+  * This assignment took me the longest, to think of how to approach the problem.  Once I took a moment to assess the situation after a brute force attempt - the solution came very quickly.
 
 
 ---
+
+Resources: 
+  * Team Treehouse - mocha tutorial
+  * Stack Overflow for syntax on module importing and exporting
+  * Chai [cheatsheat](http://ricostacruz.com/cheatsheets/chai.html) for testing syntax usage.
+  * [Math abs sytax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+
+---
+
 My Info:
 
 Feel free to reach out if you have any follow up questions or concerns. I'm happy to talk more about my code! I would love any feedback or code suggestions, I am always on the hunt for better solutions to my developing techniques. Thank you for your time!
