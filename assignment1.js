@@ -25,12 +25,30 @@ solution1.getMin = function getMinOfArray(numArray) {
 };
 
 solution1.getDiff = function calculateDifference(numArray){
-	var difference = Math.abs(solution1.getMax(numArray) - solution1.getMin(numArray));
-	
-	return difference;
+	return Math.abs(solution1.getMax(numArray) - solution1.getMin(numArray));
 };
 
 module.exports.getMaxOfArray = solution1.getMax;
 module.exports.getMinOfArray = solution1.getMin;
 module.exports.calculateDifference = solution1.getDiff;
 
+
+//Solution 2
+
+/** Pseudo Code
+* 
+* 1. Find max and min values using sort
+* 2. subtract the min from max
+*
+**/
+
+var solution2 = {};
+
+solution2.findDifference = function findDifference(numArray){
+	var max = numArray.sort(function(a, b){return b-a})[0];
+	var min = numArray.sort(function(a, b){return a-b})[0];
+
+	return max - min;
+};
+
+module.exports.findDifference = solution2.findDifference;
