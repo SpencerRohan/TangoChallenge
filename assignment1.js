@@ -14,21 +14,21 @@
 **/
 
 var solution1 = {};
-solution1.getMax = function getMaxOfArray(numArray) {
+solution1.getMaxOfArray = function(numArray) {
   return Math.max.apply(null, numArray);
 };
 
-solution1.getMin = function getMinOfArray(numArray) {
+solution1.getMinOfArray = function(numArray) {
 	return Math.min.apply(null, numArray);
 };
 
-solution1.getDiff = function calculateDifference(numArray){
-	return Math.abs(solution1.getMax(numArray) - solution1.getMin(numArray));
+solution1.calculateDifference = function(numArray){
+	return Math.abs(solution1.getMaxOfArray(numArray) - solution1.getMinOfArray(numArray));
 };
 
-module.exports.getMaxOfArray = solution1.getMax;
-module.exports.getMinOfArray = solution1.getMin;
-module.exports.calculateDifference = solution1.getDiff;
+module.exports.getMaxOfArray = solution1.getMaxOfArray;
+module.exports.getMinOfArray = solution1.getMinOfArray;
+module.exports.calculateDifference = solution1.calculateDifference;
 
 
 //Solution 2
@@ -42,7 +42,7 @@ module.exports.calculateDifference = solution1.getDiff;
 
 var solution2 = {};
 
-solution2.findDifference = function findDifference(numArray){
+solution2.findDifference = function(numArray){
 	var max = numArray.sort(function(a, b){return b-a})[0];
 	var min = numArray.sort(function(a, b){return a-b})[0];
 
