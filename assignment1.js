@@ -1,6 +1,4 @@
-
-// Challenge Assignment 1 
-/**
+/** Challenge Assignment 1 
 * Given an array of numbers, assume that they are all different. Calculate the largest difference(subtraction) between any two numbers of the array.
 * 1. Code in Javascript 2 solutions for this problem
 * 2. Explain which one is better than the other one.

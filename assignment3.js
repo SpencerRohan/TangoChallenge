@@ -1,0 +1,29 @@
+/**
+ * Given the function assignment 3 that calculates a number from a string.
+ * Find the string for which the number is: 667734139064.
+ * The string has 7 characters and it can have repeated chars.
+ * The strings has to be formed with the characters:
+ * "a","c","d","e","g","i","l","m","n","o","p","r","s","t","u","w".
+ **/
+
+var assignment3 = {};
+
+assignment3.strToNumber = function(str) {
+  var h = 7;
+  var letters = ["a","c","d","e","g","i","l","m","n","o","p","r","s","t","u","w"];
+  for (var i = 0; i < str.length; i++) {
+    var letter = str[i];
+    var index = letters.indexOf(letter);
+
+    h = (h * 37) + index;
+  }
+  return h;
+};
+
+assignment3.numberToStr = function(number) {
+	
+};
+
+
+module.exports.strToNumber = assignment3.strToNumber;
+module.exports.numberToStr = assignment3.numberToStr;
