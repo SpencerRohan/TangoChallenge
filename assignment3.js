@@ -32,6 +32,9 @@ assignment3.strToNumber = function(str) {
 
 
 assignment3.numberToStr = function(h) {
+    var str = [];
+    var length = 7;
+    var letters = ["a","c","d","e","g","i","l","m","n","o","p","r","s","t","u","w"];
     
 }
 
