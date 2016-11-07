@@ -1,0 +1,24 @@
+{
+  "name": "TangoChallenge",
+  "version": "1.0.0",
+  "description": "Code Challenge for TangoCode",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SpencerRohan/TangoChallenge.git"
+  },
+  "author": "Spencer M. Rohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpencerRohan/TangoChallenge"
+  },
+  "homepage": "https://github.com/SpencerRohan/TangoChallenge"
+}
