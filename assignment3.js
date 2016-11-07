@@ -30,7 +30,6 @@ assignment3.strToNumber = function(str) {
 **/
 
 
-
 assignment3.numberToStr = function(h) {
     var str = [];
     var length = 7;
@@ -40,11 +39,11 @@ assignment3.numberToStr = function(h) {
         h = (h - index) / 37;
         str.unshift(letters[index]);
     }
-    console.log(str);
+    return str.join('');
 }
 
-console.log(assignment3.numberToStr(667734139064));
-
+console.log(assignment3.numberToStr(667734139064)); //The answer is: correct!
+console.log(assignment3.numberToStr(680131662011)); //leepdag
 
 module.exports.strToNumber = assignment3.strToNumber;
 module.exports.numberToStr = assignment3.numberToStr;
