@@ -35,7 +35,13 @@ assignment3.numberToStr = function(h) {
     var str = [];
     var length = 7;
     var letters = ["a","c","d","e","g","i","l","m","n","o","p","r","s","t","u","w"];
-    
+    while (h !== length) {
+        var index = h % 37;
+        h = (h - index) / 37;
+        console.log(h);
+        console.log(index);
+        console.log(letters[index]);
+    }
 }
 
 console.log(assignment3.numberToStr(667734139064));
